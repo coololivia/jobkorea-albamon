@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Search, Filter, MapPin, Building2, Clock, DollarSign, Bookmark, Heart } from 'lucide-react'
 
 export default function JobListPage() {
@@ -9,7 +10,7 @@ export default function JobListPage() {
           <div className="flex justify-between items-center h-16">
             <h1 className="text-2xl font-bold text-blue-600">잡코리아</h1>
             <nav className="hidden md:flex space-x-8">
-              <a href="/" className="text-gray-900 hover:text-blue-600">홈</a>
+              <Link href="/" className="text-gray-900 hover:text-blue-600">홈</Link>
               <a href="#" className="text-blue-600 font-medium">채용</a>
               <a href="#" className="text-gray-900 hover:text-blue-600">커리어</a>
             </nav>

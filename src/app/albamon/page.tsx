@@ -1,4 +1,4 @@
-import { Search, MapPin, Clock, DollarSign, Heart, Building2, Calendar, Users, ArrowRight, Star, Award, BookOpen, Target, Brain, Camera } from 'lucide-react'
+import { Clock, DollarSign, Heart, Building2, Calendar, Star, BookOpen, Target, Brain, Camera } from 'lucide-react'
 
 export default function AlbamonPage() {
   return (
@@ -240,7 +240,7 @@ export default function AlbamonPage() {
 
                     <div className="flex items-center mb-4 p-2 bg-yellow-50 rounded">
                       <Camera className="h-4 w-4 mr-2 text-yellow-600" />
-                      <span className="text-sm text-yellow-700">"{job.review}"</span>
+                      <span className="text-sm text-yellow-700">&ldquo;{job.review}&rdquo;</span>
                     </div>
 
                     <div className="flex gap-2">

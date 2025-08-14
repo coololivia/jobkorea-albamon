@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import Link from 'next/link'
 import { Menu, X, Home, Search, User, MessageCircle, Briefcase } from 'lucide-react'
 
 export default function MobileNav() {
@@ -32,10 +33,10 @@ export default function MobileNav() {
             </div>
             <nav className="p-4">
               <div className="space-y-4">
-                <a href="/" className="flex items-center text-gray-900 hover:text-blue-600">
+                <Link href="/" className="flex items-center text-gray-900 hover:text-blue-600">
                   <Home className="h-5 w-5 mr-3" />
                   홈
-                </a>
+                </Link>
                 <a href="/jobs" className="flex items-center text-gray-900 hover:text-blue-600">
                   <Search className="h-5 w-5 mr-3" />
                   채용정보

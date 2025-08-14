@@ -1,4 +1,4 @@
-import { Search, MapPin, Bell, User, Heart, Building2, Clock, DollarSign, BarChart3, Users, Award, Target, ArrowRight, Briefcase, Menu } from 'lucide-react'
+import { Search, MapPin, Bell, User, Heart, Building2, Clock, DollarSign, BarChart3, Users, Award, Target, ArrowRight, Briefcase } from 'lucide-react'
 import MobileNav from '@/components/MobileNav'
 
 export default function HomePage() {

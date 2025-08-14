@@ -1,4 +1,4 @@
-import { Save, Download, Eye, Palette, Move, Plus, Trash2, Lightbulb, Star } from 'lucide-react'
+import { Save, Download, Eye, Move, Plus, Trash2, Lightbulb, Star } from 'lucide-react'
 
 export default function ResumePage() {
   return (
